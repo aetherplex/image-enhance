@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn--primary {
+    border: none !important;
+    outline: none !important;
+    border-radius: 5rem !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: 45px !important;
+    display: flex !important;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 600 !important;
+}
+
+.uploader__widget-base--draggable {
+    border-color: #3f3f46 !important;
+}
+
+.uploader__submitted-file__inner {
+    background-color: #27272a !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+}
